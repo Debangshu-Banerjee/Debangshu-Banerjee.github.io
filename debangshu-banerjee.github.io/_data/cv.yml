@@ -1,0 +1,76 @@
+- title: <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education
+  type: time_table
+  contents:
+    - title: PhD in Computer Science
+      institution: <a href="https://cs.illinois.edu/">University of Illinois, Urbana-Champaign</a>, IL, USA
+      year: 2022-Present
+      scores: "CGPA: 4.0/4.0"
+      description:
+        - '<span class="highlight">Advisor</span>: <a href="https://ggndpsngh.github.io/">Prof. Gagandeep Singh</a>'
+        - '<span class="highlight">Focus</span>: Formal Methods & Machine Learning'
+        - '<span class="highlight">Key Courses</span>: Formal Methods for Software Development (A+), Program Verification (A+), Trustworthy AI Systems (A+)'
+    - title: B. Tech Computer Science and Engineering
+      institution:  <a href="https://www.iitg.ac.in/">Indian Institute of Technology, Guwahati</a>, Assam, India
+      year: 2016-2020
+      scores: "CGPA: 9.69/10 (Class Rank: 2/88)"
+      description:
+        - '<span class="highlight">Thesis</span>: <a href="https://www.worldscientific.com/doi/abs/10.1142/S0218195921500060" target="_blank">Dynamic Algorithm for Guarding Orthogonal Art Galleries </a>'
+        - '<span class="highlight">Advisor</span>: <a href="https://www.iitg.ac.in/rinkulu/">Dr. R. Inkulu</a>'
+        - '<span class="highlight">Scholarships</span>: Institute Merit Scholarship 2017 & 2018 of $2800 for scoring the highest grades in the academic years 2016-2018.'
+
+
+- title: <i class="fa fa-search" aria-hidden="true"></i> Research Experience
+  type: time_table
+  contents:
+    - title: 'Relational Verification of Neural Networks'
+      institution: <a href="https://ggndpsngh.github.io/">Prof. Gagandeep Singh</a>, Assistant Professor, Dept. of CSE, UIUC
+      description:
+        Working on developing scalable relational verification algorithms for relational properties such as monotonicity, fairness, etc. 
+        defined over multiple executions of Deep Neural Networks. The goal of this project is to enable trustworthy deployment of
+        Neural Networks in financial and scientific applications.
+
+    - title: 'Incremental Verification of Neural Networks'
+      institution: <a href="https://ggndpsngh.github.io/">Prof. Gagandeep Singh</a>, Assistant Professor, Dept. of CSE, UIUC
+      description:
+        Working on developing algorithms for incrementally verifying Deep Neural Networks. 
+        The goal of this project is to improve the runtime of the verification algorithm on Neural Networks after 
+        modification - weight pruning, quantization, fine-tuning, etc by using the trace of the verification 
+        algorithm on the original Neural Networks.
+
+- title: <i class="fa fa-info" aria-hidden="true"></i> General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Debangshu Banerjee
+    - name: Date of Birth
+      value: 18th October 1997
+    - name: Email id
+      value: db21 "at" illinois.edu
+    - name: Languages
+      value: English, Hindi, Bangla
+
+
+# - title: <i class="fa fa-briefcase" aria-hidden="true"></i> Industry Experience
+#   type: time_table
+#   contents:
+#     - titles: 
+#         - Software Engineer III (L4)
+#         - Software Engineer II (L3)
+#       institution: Trading Systems Team,  <a href="https://www.deshawindia.com/">Google </a>, Bangalore, India
+#       years: 
+#         - J 2022 - JUN 2022
+#         - JUN 2020 - DEC 2021
+#       description:
+#         - <span class="highlight">Full Stack Development</span> of technological and business enhancements to the firm's <span class="highlight">proprietary electronic trading system</span>, a distributed application engineered to efficiently handle <span class="highlight">large amounts of trading data (TBs)</span> flowing throughout the day.
+#         - "This included features to optimize the traders' workflows like giving them the flexibility to define new data in the UI from existing data by specifying any arbitrary computations."
+#         - Mentoring new joinees and participating in code design & review cycles.
+#         - 'Tech Stack: Java & C++ (backend), React (frontend). Misc: Git, Python, Bash, Grafana'
+
+#     - title: Software Engineering Intern
+#       institution: Trading Systems Team,  <a href="https://www.deshawindia.com/">Google </a>, Bangalore, India
+#       year: MAY 2019 - JUL 2019
+#       description:
+#         - Implemented a high performance and <span class="highlight">type-safe functional programming API</span> in Java to read and write trading data on the on-premise database.
+#         - Used the API along with the Parallel Streams in Java to get a <span class="highlight">60x run-time improvement in production critical reports</span>.
+#         - Awarded a Pre-Placement Offer (PPO) for my work at the internship.
+
