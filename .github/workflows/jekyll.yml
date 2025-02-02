@@ -10,7 +10,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: readgi
   pages: write
   id-token: write
 
@@ -40,7 +40,7 @@ jobs:
           
       - name: Setup Bundler
         run: |
-          gem install bundler
+          gem install bundler --user-install
 
       - name: Setup Pages
         id: pages
