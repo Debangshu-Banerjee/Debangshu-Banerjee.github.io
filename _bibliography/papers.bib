@@ -3,9 +3,32 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{crane,
+abbr={CRANE},
+title={CRANE: Expressive Grammar-Constrained LLM Generation},
+abstract={Code generation, symbolic math reasoning, and other tasks require LLMs to produce outputs that are both syntactically and semantically correct. Constrained LLM generation is a promising direction to enforce adherence to formal grammar, but prior works have empirically observed that strict enforcement of formal constraints often diminishes the reasoning capabilities of LLMs. In this work, we first provide a theoretical explanation for why constraining LLM outputs to very restrictive grammars that only allow syntactically valid final answers reduces the reasoning capabilities of the model. Second, we demonstrate that by augmenting the output grammar with carefully designed additional rules, it is always possible to preserve the reasoning capabilities of the LLM while ensuring syntactic and semantic correctness in its outputs. Building on these theoretical insights, we propose a reasoning-augmented constrained decoding algorithm, CRANE, which effectively balances the correctness of constrained generation with the flexibility of unconstrained generation. Experiments on multiple open-source LLMs and benchmarks show that CRANE significantly outperforms both state-of-the-art constrained decoding strategies and standard unconstrained decoding, showing up to a 9% improvement over baselines on challenging symbolic mathematical benchmarks GSM-symbolic and FOLIO.},
+author={Banerjee, Debangshu and Suresh, Tarun and Ugare, Shubham and Misailovic, Sasa and Singh, Gagandeep},
+year={2025},
+pdf={CRANE.pdf},
+selected=true
+}
+
+
+@inproceedings{civet,
+abbr={CIVET},
+title={Support is All You Need for Certified VAE Training},
+abstract={Variational Autoencoders (VAEs) have become increasingly popular and deployed in safety-critical applications. In such applications, we want to give certified probabilistic guarantees on performance under adversarial attacks. We propose a novel method, CIVET, for certified training of VAEs. CIVET depends on the key insight that we can bound worst-case VAE error by bounding the error on carefully chosen support sets at the latent layer. We show this point mathematically and present a novel training algorithm utilizing this insight. We show in an extensive evaluation across different datasets (in both the wireless and vision application areas), architectures, and perturbation magnitudes that our method outperforms SOTA methods achieving good standard performance with strong robustness guarantees.},
+author={Xu, Calvin and Banerjee, Debangshu and Vasisht, Deepak and Singh, Gagandeep},
+booktitle={The Thirteenth International Conference on Learning Representations (ICLR)},
+year={2025},
+pdf={CIVET.pdf},
+selected=true
+}
+
+
 @inproceedings{rabbit,
 abbr={RABBit},
-title={Precise Relational DNN Verification With Cross Executional Branching},
+title={Relational Verification Leaps Forward with RABBit},
 abstract={We propose RABBit, a Branch-and-Bound-based verifier for verifying relational properties defined over Deep Neural Networks, such as robustness against universal adversarial perturbations (UAP). Existing state-of-the-art (SOTA) complete 
 input specific robustness verifiers can not reason about dependencies between multiple executions and, as a result, are imprecise for relational verification. In contrast, existing SOTA relational verifiers only apply a single bounding step and do not utilize any branching strategies to refine the obtained bounds, thus producing imprecise results. We develop the first scalable Branch-and-Bound-based relational verifier, RABBit, which efficiently combines branching over multiple executions with cross-executional bound refinement to utilize relational constraints, gaining substantial precision over SOTA baselines on a wide range of datasets and networks.},
 author={Suresh, Tarun and Banerjee, Debangshu and Singh, Gagandeep},
