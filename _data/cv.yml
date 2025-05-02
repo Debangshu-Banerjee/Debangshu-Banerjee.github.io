@@ -22,6 +22,12 @@
 - title: <i class="fa fa-search" aria-hidden="true"></i> Research Experience
   type: time_table
   contents:
+    - title: 'Verified Generation of Semantically Valid Code with LLMs'
+      institution: <a href="https://ggndpsngh.github.io/">Prof. Gagandeep Singh</a>, Assistant Professor, Dept. of CSE, UIUC
+      description:
+        I am currently looking into the development of programming systems with LLMs that provide users with finer-grained control over the generated output, such as code and logical formulas.
+        On the theoretical side, I am interested in investigating the capabilities and potential limitations of LLMs in understanding code semantics.
+
     - title: 'Relational Verification of Neural Networks'
       institution: <a href="https://ggndpsngh.github.io/">Prof. Gagandeep Singh</a>, Assistant Professor, Dept. of CSE, UIUC
       description:
