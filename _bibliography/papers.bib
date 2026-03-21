@@ -3,6 +3,18 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{VeriSEA,
+abbr={VeriSEA},
+title={VeriSEA: Verified Synthesis of Self-Evolving Agents},
+abstract={Recent advances have demonstrated the effectiveness of self-evolving LLM agents on tasks such as program repair and scientific discovery. In this paradigm, a planner LLM synthesizes agent code that invokes parametric models, including probabilistic generative models such as LLMs, smaller neural networks, and external tools such as SMT solvers. These components are then tuned per task to improve performance. However, unlike traditional constraint-guided program synthesis, existing self-evolving agent frameworks provide no formal guarantees of safety or correctness. Because such synthesized programs are often executed autonomously on unseen inputs, the lack of formal guarantees raises serious reliability and security concerns. To address this gap, we formulate agentic code generation as a constrained learning problem that combines hard formal specifications with soft objectives capturing task utility. We introduce Formally Guarded Generative Models (FGGM), which allow the planner LLM to specify a formal output contract for each generative-model call using first-order logic. Each FGGM call automatically wraps the underlying parametric generative model in a rejection sampler with a verified fallback, treating model outputs as samples from a proposal distribution. As a result, every returned output satisfies the specified contract for any input and any parameter setting of the underlying model. Building on FGGM, we present VeriSEA (Verified Self-Evolving Agents), a three-stage framework for solving constrained learning problems arising from agent synthesis. In \emph{Search}, the planner LLM synthesizes candidate parametric programs that may contain multiple FGGM calls. In \emph{Verification}, we prove correctness with respect to the hard constraints for all parameter values, reducing the problem to unconstrained learning. In \emph{Learning}, we apply scalable gradient-based optimization, including GRPO-style fine-tuning for LLMs, to improve the soft objective while preserving formal correctness. We evaluate VeriSEA on constrained symbolic regression, invariant generation for Dafny programs, symbolic mathematical expression synthesis, and policy-compliant agentic tool use ($\tau^2$-bench). Across all tasks, VeriSEA achieves zero constraint violations while simultaneously improving task performance over unconstrained and state-of-the-art baselines. Our results demonstrate that formal behavioral constraints not only guarantee correctness but also prune the space of candidate programs, steering synthesis toward higher-quality agents.},
+author={Banerjee, Debangshu* and Xu, Changming*, and Singh, Gagandeep},
+booktitle={Preprint},
+year={2026},
+pdf={VeriSEA.pdf},
+selected=true
+}
+
+
 @inproceedings{dingo,
 abbr={DINGO},
 title={DINGO: Constrained Inference for Diffusion LLMs},
